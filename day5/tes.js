@@ -28,7 +28,10 @@ var score = 100
   else(score 54 ~ 0) {
     console.log("Grade E")
 } 
+
 `````````````````````````````````````````````````
+soal 2
+
 var kecepatan = 20 km/jam
 var penumpang = 4 orang
 
@@ -43,4 +46,36 @@ var penumpang = 4 orang
   else if(1 atau 2 penumpang) {
     console.log("kecepatan becak berkurang 2 km/jam")
 }
+
+`````````````````````````````````
+soal 3 
+
+ar nama = andre
+var password = 123
+var isLogin = false
+var role1 = admin
+var role2= super admin 
+var role3= selain admin dan super admin
+
+
+  if(true){
+  console.log("user login succes")
+}
+
+  else if(false){
+  console.log(user login failed)
+}
+
+  else if(true){
+  console.log(Role?)
+}
+
+  else if (true;role1;role2){
+  console.log("You have all access as role")
+}
+
+  else (true;role3){
+  console.log("You have restricted access as role")
+}
+
 
