@@ -1,0 +1,55 @@
+Soal 1
+
+IF "score > 85"
+  DO "Grade A"
+ELSE IF "score > 75; score < 85"
+  DO "Grade B"
+ELSE IF "score > 65; score < 75"
+  DO "Grade C"
+ELSE "score < 65"
+  DO "Grade D"
+----------------------------
+Soal 2
+
+STORE "penumpang" to 4 orang
+STORE "kecepatan" to 20 km/jam
+
+IF "lebih dari 2 orang"
+  DO "kecepatan becak berkurang 5 km/jam"
+ELSE IF "max penumpang"
+  DO "kecepatan berkurang 7 km/jam"
+ELSE "1 atau 2 orang"
+  DO "kecepatan becak berkurang 2 km/jam"
+
+```````````````````````````````````````
+Soal 3 
+
+var nama = "andre"
+var password = "123"
+var isLogin = false
+
+var n = prompt("input nama anda")
+var k = prompt("input password")
+var l = prompt("role anda")
+
+console.log(n)
+
+var name = "nama"
+var age = "17";
+var money = "50000; 300000";
+
+var n = prompt("input nama")
+    console.log(n)
+    
+var k = prompt("input umur")
+ 
+{(!name)
+  alert("Anda tidak boleh masuk")}
+{(age > 17)
+  alert("Anda hanya boleh memesan jus")}
+{(age < 17)
+  alert("Anda hanya boleh memesan anggur")}
+{(money = 50000)
+  alert("Harga 50000")}
+{(money = 300000)
+  alert("Harga 300000")}

@@ -1,0 +1,52 @@
+soal 1 pseudo code
+
+var name = "nama";
+var age = "< 17;> 17";
+var money = "50000; 300000";
+
+var n = prompt("input nama")
+    console.log(n)
+
+IF "name = kosong"
+    DO "Stop step 1"
+    var k = prompt("Anda tidak boleh masuk!")
+    console.log(k)
+
+ELSE IF "name = terisi"
+    DO "Lanjut ke step 2"
+
+ELSE IF "< 17"
+    DO "Hanya boleh memesan minuman juice"
+    var l = propmt("Anda hanya boleh memesan juice seharga 50000")
+    console.log(l)
+
+ELSE IF "> 17"
+    DO "Hanya boleh memesan minuman anggur"
+    var j = prompt("Anda hanya boleh memesan minuman anggur seharga 300000")
+    console,log(j)
+
+---------------------------------------------
+soal 1 code
+
+var name = prompt("input nama")
+var age = Number(prompt("input umur"))
+
+if (!name) {
+  alert("Anda tidak boleh masuk!"); 
+} else {
+  if (age < 17  && money > 50000) {
+    alert("hanya boleh pesan juice")
+  } else {
+    alert("boleh pesan anggur")
+  }
+  if (age < 17){
+    alert("harga 50000")
+  } else {
+    alert("300000")
+  }  
+}
+
+
+
+
+
