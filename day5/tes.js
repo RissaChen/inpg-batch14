@@ -50,7 +50,7 @@ var penumpang = 4 orang
 `````````````````````````````````
 soal 3 
 
-ar nama = andre
+var nama = andre
 var password = 123
 var isLogin = false
 var role1 = admin
