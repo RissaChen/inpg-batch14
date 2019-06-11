@@ -69,7 +69,7 @@ var role3= selain admin dan super admin
   console.log("You have all access as role")
 }
 
-  else if(true;role3){
+  else (true;role3){
   console.log("You have restricted access as role")
 }
 
