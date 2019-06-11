@@ -1,0 +1,59 @@
+
+soal 1
+
+function getGrade(angka){
+  var grade;
+  
+  if (angka > 85){
+    grade = "A"
+  } else if (angka < 75 && angka > 84){
+    grade = "B"
+  } else if (angka < 65 && angka > 74){
+    grade = "C"
+  } else if (angka < 55 && angka > 64){
+    grade = "D"
+  } else {
+    grade = "E"
+  }
+  return grade
+}
+
+console.log(getGrade(90))
+
+regexone
+
+```````````````````````````
+soal 2 
+
+function getPerson(orang){
+  var kecepatan = 0;
+  
+  if (orang < 2){
+    kecepatan -= 5
+  } else if (orang == 4){
+    kecepatan -= 7
+  } else {
+    kecepatan = -2
+  }
+  
+  return kecepatan
+}
+
+console.log(getPerson(4))
+
+
+function getPerson(orang){
+  var kecepatan = 0;
+  
+  if (orang < 2){
+    kecepatan -= 5
+  } else if (orang == 4){
+    kecepatan -= 7
+  } else {
+    kecepatan = -2
+  }
+  
+  return kecepatan
+}
+
+console.log(getPerson(4))
