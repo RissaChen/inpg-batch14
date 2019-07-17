@@ -1,0 +1,11 @@
+function countLetters(word, letter) {
+  var count = 0;
+  for(var i=0; i<word.length; ++i) if(word[i] === letter) ++count;
+  return count;
+}
+
+console.log(countLetters('12104123', '1'))
+console.log(countLetters('the quick brown fox', 'o'))
+console.log(countLetters('lorem ipsum', 'a')); 
+console.log(countLetters('hahaha', 'h')); 
+-------------------------------------------------

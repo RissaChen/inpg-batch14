@@ -1,0 +1,45 @@
+function compareNumbers (firstNumber, secondNumber) {
+  if(firstNumber < secondNumber){
+    return true;
+  }
+  else if(firstNumber > secondNumber){
+    return false;
+  }
+  else if(firstNumber === secondNumber){
+    return -1
+  }
+  }
+
+
+console.log(compareNumbers(17,2))
+
+------------------------------------------
+
+function reverseString (text) {
+  return text.split("").reverse("").join("")
+}
+
+console.log(reverseString('Hello world and coders'))
+
+-----------------------------------------------
+
+function sortByCharacter (text){ 
+  var arr = text.split("");
+  var sorted = arr.sort();
+  return sorted.join("");
+  
+}
+
+console.log(sortByCharacter('truncate'))
+--------------------belom selesai
+function isArithmeticProgression (numbers) {
+  if(numbers ){
+    return true;
+  }
+  
+  else{
+    return false;
+  }
+}
+
+console.log(isArithmeticProgression(1, 2, 3, 4, 5, 6))

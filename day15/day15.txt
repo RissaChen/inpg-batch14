@@ -1,0 +1,53 @@
+cara 1 
+var text = 'i am sick'
+var regex = /a...b/g
+
+console.log(regex.test(text))
+
+-========---------============== cara 2
+function threeStepsAB (a) {
+  
+    for(var i = 0 ; i < a.length; i++){
+      if(a[i]==="a"){
+        if(a[i+4]==='b'){
+          return true
+        }
+      }
+      
+      if(a[i]==="b"){
+        if(a[i+4]==='a'){
+          return true
+        }
+      }
+    }
+  
+  return false
+  
+}
+
+console.log(threeStepsAB('lane borrowed')); // true
+console.log(threeStepsAB('i am sick')); // false
+console.log(threeStepsAB('you are boring')); // true
+console.log(threeStepsAB('barbarian')); // true
+console.log(threeStepsAB('bacon and meat')); // false
+
+----------------------------------------
+var gcd= function (firstNumber,secondNumber){
+    
+    if( ! secondNumber){
+      return firstNumber;
+    }
+  return gcd(secondNumber,firstNumber % secondNumber);
+};
+
+console.log(gcd(17,23))
+------------------------------------------------
+function isPrime (number) {
+  for(var i = 2 ; i < number; i ++ )
+    if(number % i === 0) return false;
+  return number > 1;
+}
+
+console.log(isPrime(33))
+
+--------------------------------------

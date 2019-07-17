@@ -1,0 +1,15 @@
+var people = [
+  [1, 'Dimitri', 'Hacktiv8'],
+  [2, 'Dhani', 'Hacktiv8'],
+  [3, 'Icha', 'Hacktiv8']
+];
+  console.log(`ID : ${people[0][0]} Name : ${people [0][1]} Company : ${people [0][2]}`)
+  console.log(`ID : ${people[1][0]} Name : ${people [1][1]} Company : ${people [1][2]}`)
+  console.log(`ID : ${people[2][0]} Name : ${people [2][1]} Company : ${people [2][2]}`)
+  
+  ---------------
+var text = 'dimitri:dimitri@mail.com:male,icha:icha@mail.com:female,windi:windi@mail.com:female';
+
+var belah = text.split(",")
+var belah1 = text[0].split(":")
+console.log(belah1)
